@@ -1,44 +1,43 @@
 # TclPyHyperWorks
-+ 有限元
-+ hyperworks 相关模块, 以hypermesh前处理为主  
++ FEA
++ hyperworks Module, hypermesh
 
-
-### version版本
+### version
 + hyperworks 13.0 / 2017 /2021.1
 + python 3.7
 + tcl
 
-### 模块
-+ hm : hypermesh相关二次开发
-+ hv : hyperview相关二次开发
-+ hg2d: hypergraph 2d相关二次开发
+### Module
++ hm : hypermesh secondary development
++ hv : hyperview secondary development
++ hg2d: hypergraph 2d secondary development
 
-+ Project_opt_fatigue: optistruct fatigue相关二次开发
-+ Project_feon_learning: 有限元框架Feon学习
-+ Project_Platform_ARB: 稳定杆计算平台开发研究
-+ Project_StrainPoint: 应变测点评估
-+ Project_OptAutoRun: 监控并自动Optistruct运行fem文件
++ Project_opt_fatigue: secondary development
++ Project_feon_learning
++ Project_Platform_ARB: 
++ Project_StrainPoint: 
++ Project_OptAutoRun: Optistruct .fem auto run
 
-+ tests : 部分测试用文件存放
-
-
-### 文件
-+ py_cmf_read : hypermesh 命令解析
-+ py_cmf_read_2021 : hypermesh 命令解析 2021
-+ py_file_del : 计算文件删除
-+ py_zip : 压缩文件, 用于备份
-+ codes_hm_example : tcl相关代码
-+ codes_hmSources : tcl相关代码
-+ codes_tcl : tcl相关代码
-+ ing_py_funForTCLtest : tcl调用python测试
-+ ing_py_hmBatRun : 外部调用 hmbatch.exe
++ tests 
 
 
+### Files
++ py_cmf_read : hypermesh command manual
++ py_cmf_read_2021 : hypermesh command manual 2021
++ py_file_del : 
++ py_zip : for backup
++ codes_hm_example : tcl code
++ codes_hmSources : tcl code
++ codes_tcl : 
++ ing_py_funForTCLtest : tcl call python for test
++ ing_py_hmBatRun : external call hmbatch.exe
 
-### 示例
 
-快捷键设置
-![快捷键设置](./README/figure_hm_快捷键设置.png)
 
-hmGUI界面
+### Examples
+
+Shortcut settings
+![scset](./README/figure_hm_scset.png)
+
+hmGUI
 ![hmGUI](./README/figure_hmGUI.png)
