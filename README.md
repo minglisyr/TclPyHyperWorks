@@ -38,6 +38,3 @@
 
 Shortcut settings
 ![scset](./README/figure_hm_scset.png)
-
-hmGUI
-![hmGUI](./README/figure_hmGUI.png)
